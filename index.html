@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://em-content.zobj.net/source/google/119/call-me-hand_1f919.png">
+    <title>FRONTEND</title>
+</head>
+
+<body>
+    <div>
+        <h2>Usuários Cadastrados</h2> <br>
+        <div id="userList"></div> <br>
+    </div>
+
+    <div>
+        <h1>Cadastro de Usuário</h1>
+        <form id="userForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <input type="submit" value="Cadastrar">
+        </form> <br>
+    </div>
+
+    <div>
+        <h2>Excluir Usuário</h2>
+        <form id="deluser">
+            <label for="_id">ID:</label>
+            <input type="text" name="_id" id="_id" required> <br><br>
+            <input type="submit" value="Deletar">
+        </form> <br>
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
